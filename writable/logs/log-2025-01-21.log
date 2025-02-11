@@ -1,0 +1,9 @@
+CRITICAL - 2025-01-21 17:41:40 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "CreateUsers.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('CreateUsers.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('CreateUsers', [], true)
+ 3 APPPATH\Controllers\Home.php(17): view('CreateUsers')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->createUsers()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()

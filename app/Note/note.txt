@@ -1,0 +1,5 @@
+MVC
+
+Modele : bussiness => db
+View : Page html
+Controller : Capturer les actions comme un clique pour dire au model execute cela
