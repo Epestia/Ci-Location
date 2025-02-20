@@ -73,3 +73,8 @@ CREATE TABLE notification (
 -- savoir pq avoir mis on delete cascade 
 -- savoir pq avoir mis Text
 --rajouter table bloqué
+
+
+UPDATE location.user 
+SET role = 'ADMIN' 
+WHERE username = 'Dylan';
