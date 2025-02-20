@@ -30,6 +30,10 @@
                             <a class="nav-link" href="<?= base_url('createHouse') ?>">Créer une maison</a>
                         </li>
 
+                    <li class="nav-item">
+                        <a class="nav-link" href="<?= base_url('allUsers') ?>">Tous les utilisateurs</a>
+                    </li>
+
                     <li class="nav-item dropdown" data-bs-auto-close="outside">
                         <a class="nav-link dropdown-toggle d-flex align-items-center" href="#" id="userDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             <img src="<?= base_url(session()->get('photo') ?: 'default.png') ?>" alt="Profil" class="rounded-circle" width="40" height="40">

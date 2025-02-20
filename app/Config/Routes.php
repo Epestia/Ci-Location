@@ -29,3 +29,4 @@ $routes->get('createHouse', 'HouseController::index');
 $routes->get('information', 'UserController::information');
 $routes->post('update-information', 'UserController::updateInformation');
 
+$routes->get('allUsers', 'UserController::allUsers');

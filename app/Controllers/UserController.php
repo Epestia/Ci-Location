@@ -127,4 +127,13 @@ class UserController extends BaseController
 
             return redirect()->to('information')->with('success', 'Informations mises à jour avec succès');
         }
+
+    public function allUsers()
+    {
+        $userModel = new UserModels();
+        $users = $userModel->select('username, role')->findAll();
+
+        return view('AllUser', ['users' => $users]);
+    }
+
 }
