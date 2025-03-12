@@ -1,0 +1,54 @@
+CRITICAL - 2025-01-30 18:02:19 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "AllHouses.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('AllHouses.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('AllHouses', [], true)
+ 3 APPPATH\Controllers\Home.php(29): view('AllHouses')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->AllHouse()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-30 18:04:05 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "AllHouses.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('AllHouses.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('AllHouses', [], true)
+ 3 APPPATH\Controllers\Home.php(29): view('AllHouses')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->AllHouse()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-30 18:04:20 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "AllHouses.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('AllHouses.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('AllHouses', [], true)
+ 3 APPPATH\Controllers\Home.php(29): view('AllHouses')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->AllHouse()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-30 18:52:00 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "AllHouses.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('AllHouses.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('AllHouses', [], true)
+ 3 APPPATH\Controllers\Home.php(29): view('AllHouses')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->AllHouse()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-30 18:52:44 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "AllHouses.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('AllHouses.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('AllHouses', [], true)
+ 3 APPPATH\Controllers\Home.php(29): view('AllHouses')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->AllHouse()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-30 18:52:53 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "AllHouses.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('AllHouses.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('AllHouses', [], true)
+ 3 APPPATH\Controllers\Home.php(29): view('AllHouses')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->AllHouse()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()

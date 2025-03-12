@@ -1,0 +1,6 @@
+Partie utilisateur / admin : 
+
+Gérer son profil
+Bloquer un utilisateur
+Créer son profil avec une photo également
+

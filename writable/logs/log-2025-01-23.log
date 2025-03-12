@@ -1,0 +1,21 @@
+CRITICAL - 2025-01-23 19:12:10 --> ArgumentCountError: Too few arguments to function view(), 0 passed in C:\xampp\htdocs\Location\app\Controllers\Home.php on line 26 and at least 1 expected
+in SYSTEMPATH\Common.php on line 1166.
+ 1 APPPATH\Controllers\Home.php(26): view()
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Login()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 19:13:58 --> ArgumentCountError: Too few arguments to function view(), 0 passed in C:\xampp\htdocs\Location\app\Controllers\Home.php on line 26 and at least 1 expected
+in SYSTEMPATH\Common.php on line 1166.
+ 1 APPPATH\Controllers\Home.php(26): view()
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Login()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 19:14:16 --> ArgumentCountError: Too few arguments to function view(), 0 passed in C:\xampp\htdocs\Location\app\Controllers\Home.php on line 26 and at least 1 expected
+in SYSTEMPATH\Common.php on line 1166.
+ 1 APPPATH\Controllers\Home.php(26): view()
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Login()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()

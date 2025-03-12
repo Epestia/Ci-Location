@@ -1,0 +1,102 @@
+CRITICAL - 2025-01-12 23:51:51 --> Error: Call to undefined function App\Controllers\show_404()
+in APPPATH\Controllers\JavascriptController.php on line 37.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JavascriptController->loadpagepath('en')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JavascriptController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-12 23:52:02 --> Error: Call to undefined function App\Controllers\show_404()
+in APPPATH\Controllers\JavascriptController.php on line 37.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JavascriptController->loadpagepath('en')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JavascriptController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-12 23:52:03 --> Error: Call to undefined function App\Controllers\show_404()
+in APPPATH\Controllers\JavascriptController.php on line 37.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JavascriptController->loadpagepath('en')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JavascriptController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-12 23:52:17 --> ErrorException: Undefined variable $lang
+in APPPATH\Controllers\JavascriptController.php on line 25.
+ 1 APPPATH\Controllers\JavascriptController.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lang', 'F:\\Xampp\\htdocs\\ExerciceCI\\app\\Controllers\\JavascriptController.php', 25)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JavascriptController->loadpagepath('en')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JavascriptController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-12 23:52:26 --> ErrorException: Undefined variable $lang
+in APPPATH\Controllers\JavascriptController.php on line 25.
+ 1 APPPATH\Controllers\JavascriptController.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lang', 'F:\\Xampp\\htdocs\\ExerciceCI\\app\\Controllers\\JavascriptController.php', 25)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JavascriptController->loadpagepath('en')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JavascriptController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-12 23:52:27 --> ErrorException: Undefined variable $lang
+in APPPATH\Controllers\JavascriptController.php on line 25.
+ 1 APPPATH\Controllers\JavascriptController.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lang', 'F:\\Xampp\\htdocs\\ExerciceCI\\app\\Controllers\\JavascriptController.php', 25)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\JavascriptController->loadpagepath('en')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JavascriptController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-12 23:52:32 --> ParseError: Unmatched '}'
+in APPPATH\Controllers\JavascriptController.php on line 40.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('F:\\Xampp\\htdocs\\ExerciceCI\\app\\Controllers\\JavascriptController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\JavascriptController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\JavascriptController')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\JavascriptController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-12 23:52:33 --> ParseError: Unmatched '}'
+in APPPATH\Controllers\JavascriptController.php on line 40.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('F:\\Xampp\\htdocs\\ExerciceCI\\app\\Controllers\\JavascriptController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\JavascriptController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\JavascriptController')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\JavascriptController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-12 23:53:00 --> ParseError: syntax error, unexpected token "public"
+in APPPATH\Controllers\JavascriptController.php on line 18.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('F:\\Xampp\\htdocs\\ExerciceCI\\app\\Controllers\\JavascriptController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\JavascriptController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\JavascriptController')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\JavascriptController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-12 23:53:00 --> ParseError: syntax error, unexpected token "public"
+in APPPATH\Controllers\JavascriptController.php on line 18.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('F:\\Xampp\\htdocs\\ExerciceCI\\app\\Controllers\\JavascriptController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\JavascriptController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\JavascriptController')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\JavascriptController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-12 23:53:01 --> ParseError: syntax error, unexpected token "public"
+in APPPATH\Controllers\JavascriptController.php on line 18.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('F:\\Xampp\\htdocs\\ExerciceCI\\app\\Controllers\\JavascriptController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\JavascriptController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\JavascriptController')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\JavascriptController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-12 23:53:01 --> ParseError: syntax error, unexpected token "public"
+in APPPATH\Controllers\JavascriptController.php on line 18.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('F:\\Xampp\\htdocs\\ExerciceCI\\app\\Controllers\\JavascriptController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\JavascriptController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\JavascriptController')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\JavascriptController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-12 23:53:01 --> ParseError: syntax error, unexpected token "public"
+in APPPATH\Controllers\JavascriptController.php on line 18.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('F:\\Xampp\\htdocs\\ExerciceCI\\app\\Controllers\\JavascriptController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\JavascriptController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\JavascriptController')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\JavascriptController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
