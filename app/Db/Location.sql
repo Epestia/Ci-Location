@@ -29,15 +29,14 @@ CREATE TABLE saison (
     fin DATE NOT NULL
 );
 
-CREATE TABLE disponibilite (
+CREATE TABLE indisponibilite (
     id INT AUTO_INCREMENT PRIMARY KEY,
     maison_id INT NOT NULL,
     debut DATE NOT NULL,
     fin DATE NOT NULL,
-    statut ENUM('DISPONIBLE', 'INDISPONIBLE') NOT NULL,
     raison TEXT,
     FOREIGN KEY (maison_id) REFERENCES maison(id) ON DELETE CASCADE
-);
+)ENGINE=INNODB;
 
 CREATE TABLE reservation (
     id INT AUTO_INCREMENT PRIMARY KEY,
@@ -48,8 +47,7 @@ CREATE TABLE reservation (
     statut ENUM('EN ATTENTE', 'CONFIRMÉE', 'ANNULÉE') DEFAULT 'EN ATTENTE',
     FOREIGN KEY (user_id) REFERENCES user(id) ON DELETE CASCADE,
     FOREIGN KEY (maison_id) REFERENCES maison(id) ON DELETE CASCADE
-    --datePayementPrevue
-);
+) ENGINE=INNODB;
 
 CREATE TABLE paiement (
     id INT AUTO_INCREMENT PRIMARY KEY,

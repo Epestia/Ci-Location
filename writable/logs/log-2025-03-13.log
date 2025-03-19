@@ -1,0 +1,643 @@
+INFO - 2025-03-13 12:31:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-03-13 12:31:47 --> mysqli_sql_exception: Table 'location.maison' doesn't exist in C:\xampp\htdocs\Location\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\Location\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Location\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Location\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Location\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Location\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Location\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Location\app\Controllers\HouseController.php(38): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Location\system\CodeIgniter.php(941): App\Controllers\HouseController->allHouses()
+#8 C:\xampp\htdocs\Location\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HouseController))
+#9 C:\xampp\htdocs\Location\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Location\index.php(80): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2025-03-13 12:31:47 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'location.maison' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `maison`', [], false)
+ 2 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\HouseController.php(38): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\HouseController->allHouses()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HouseController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-03-13 12:31:47 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'location.maison' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `maison`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `maison`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `maison`', [], false)
+ 4 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\HouseController.php(38): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\HouseController->allHouses()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HouseController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-03-13 12:31:47 --> [Caused by] mysqli_sql_exception: Table 'location.maison' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *
+FROM `maison`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `maison`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `maison`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `maison`', [], false)
+ 5 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\HouseController.php(38): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\HouseController->allHouses()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HouseController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2025-03-13 12:31:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 12:32:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 12:32:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 12:32:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 12:32:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 12:32:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-03-13 12:32:22 --> mysqli_sql_exception: Table 'location.maison' doesn't exist in C:\xampp\htdocs\Location\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\Location\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Location\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Location\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Location\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Location\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Location\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Location\app\Controllers\HouseController.php(38): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Location\system\CodeIgniter.php(941): App\Controllers\HouseController->allHouses()
+#8 C:\xampp\htdocs\Location\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HouseController))
+#9 C:\xampp\htdocs\Location\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Location\index.php(80): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2025-03-13 12:32:22 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'location.maison' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `maison`', [], false)
+ 2 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\HouseController.php(38): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\HouseController->allHouses()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HouseController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-03-13 12:32:22 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'location.maison' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `maison`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `maison`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `maison`', [], false)
+ 4 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\HouseController.php(38): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\HouseController->allHouses()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HouseController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-03-13 12:32:22 --> [Caused by] mysqli_sql_exception: Table 'location.maison' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *
+FROM `maison`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `maison`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `maison`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `maison`', [], false)
+ 5 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\HouseController.php(38): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\HouseController->allHouses()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HouseController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2025-03-13 12:32:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 12:35:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 12:35:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 12:35:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 12:35:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-03-13 12:36:25 --> mysqli_sql_exception: Duplicate entry 'epestia.lumis@hotmail.com' for key 'email' in C:\xampp\htdocs\Location\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\Location\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\Location\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\Location\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\Location\system\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\Location\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Location\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Location\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\Location\system\BaseModel.php(713): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\Location\app\Controllers\UserController.php(37): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\Location\system\CodeIgniter.php(941): App\Controllers\UserController->CreateUser()
+#10 C:\xampp\htdocs\Location\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#11 C:\xampp\htdocs\Location\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Location\index.php(80): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2025-03-13 12:36:25 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry 'epestia.lumis@hotmail.com' for key 'email'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`username`, `email`, `passwordHash`, `photo`) VALUES (:username:, :email:, :passwordHash:, :photo:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\UserController.php(37): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->CreateUser()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-03-13 12:36:25 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry 'epestia.lumis@hotmail.com' for key 'email'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `user` (`username`, `email`, `passwordHash`, `photo`) VALUES (\'EpestiaL\', \'epestia.lumis@hotmail.com\', \'$2y$10$GpHvT0RfK1HW2u1mx7N4JOy3uUO8w9A6yWE7J16RgRZTASIVM6dmG\', \'uploads/1741869385_c4ca6438c77c11c07a73.jpg\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `user` (`username`, `email`, `passwordHash`, `photo`) VALUES (\'EpestiaL\', \'epestia.lumis@hotmail.com\', \'$2y$10$GpHvT0RfK1HW2u1mx7N4JOy3uUO8w9A6yWE7J16RgRZTASIVM6dmG\', \'uploads/1741869385_c4ca6438c77c11c07a73.jpg\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`username`, `email`, `passwordHash`, `photo`) VALUES (:username:, :email:, :passwordHash:, :photo:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\UserController.php(37): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->CreateUser()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-03-13 12:36:25 --> [Caused by] mysqli_sql_exception: Duplicate entry 'epestia.lumis@hotmail.com' for key 'email'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `user` (`username`, `email`, `passwordHash`, `photo`) VALUES (\'EpestiaL\', \'epestia.lumis@hotmail.com\', \'$2y$10$GpHvT0RfK1HW2u1mx7N4JOy3uUO8w9A6yWE7J16RgRZTASIVM6dmG\', \'uploads/1741869385_c4ca6438c77c11c07a73.jpg\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `user` (`username`, `email`, `passwordHash`, `photo`) VALUES (\'EpestiaL\', \'epestia.lumis@hotmail.com\', \'$2y$10$GpHvT0RfK1HW2u1mx7N4JOy3uUO8w9A6yWE7J16RgRZTASIVM6dmG\', \'uploads/1741869385_c4ca6438c77c11c07a73.jpg\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `user` (`username`, `email`, `passwordHash`, `photo`) VALUES (\'EpestiaL\', \'epestia.lumis@hotmail.com\', \'$2y$10$GpHvT0RfK1HW2u1mx7N4JOy3uUO8w9A6yWE7J16RgRZTASIVM6dmG\', \'uploads/1741869385_c4ca6438c77c11c07a73.jpg\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`username`, `email`, `passwordHash`, `photo`) VALUES (:username:, :email:, :passwordHash:, :photo:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\UserController.php(37): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->CreateUser()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2025-03-13 12:37:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 12:38:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 12:38:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 12:38:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 12:38:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 12:38:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-03-13 12:40:00 --> mysqli_sql_exception: Table 'location.maison' doesn't exist in C:\xampp\htdocs\Location\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\Location\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Location\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Location\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Location\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Location\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Location\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Location\app\Controllers\HouseController.php(38): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Location\system\CodeIgniter.php(941): App\Controllers\HouseController->allHouses()
+#8 C:\xampp\htdocs\Location\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HouseController))
+#9 C:\xampp\htdocs\Location\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Location\index.php(80): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2025-03-13 12:40:00 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'location.maison' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `maison`', [], false)
+ 2 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\HouseController.php(38): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\HouseController->allHouses()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HouseController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-03-13 12:40:00 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'location.maison' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `maison`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `maison`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `maison`', [], false)
+ 4 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\HouseController.php(38): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\HouseController->allHouses()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HouseController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-03-13 12:40:00 --> [Caused by] mysqli_sql_exception: Table 'location.maison' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *
+FROM `maison`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `maison`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `maison`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `maison`', [], false)
+ 5 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\HouseController.php(38): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\HouseController->allHouses()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HouseController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2025-03-13 12:40:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 12:40:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 12:45:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 12:45:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 12:45:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 12:45:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 12:45:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 12:45:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 12:46:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 12:46:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 12:46:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 12:58:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-03-13 12:59:04 --> mysqli_sql_exception: Table 'location.maison' doesn't exist in C:\xampp\htdocs\Location\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\Location\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ma...', 0)
+#1 C:\xampp\htdocs\Location\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ma...')
+#2 C:\xampp\htdocs\Location\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ma...')
+#3 C:\xampp\htdocs\Location\system\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ma...', Array, false)
+#4 C:\xampp\htdocs\Location\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Location\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Location\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Location\app\Controllers\HouseController.php(30): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Location\system\CodeIgniter.php(941): App\Controllers\HouseController->store()
+#9 C:\xampp\htdocs\Location\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HouseController))
+#10 C:\xampp\htdocs\Location\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Location\index.php(80): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2025-03-13 12:59:04 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'location.maison' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `maison` (`admin_id`, `nom`, `description`, `village`, `pays`, `photo`) VALUES (:admin_id:, :nom:, :description:, :village:, :pays:, :photo:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\HouseController.php(30): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\HouseController->store()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HouseController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-03-13 12:59:04 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'location.maison' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `maison` (`admin_id`, `nom`, `description`, `village`, `pays`, `photo`) VALUES (\'1\', \'EpestiaL\', \'belle maison pour les cannrd\', \'Connardland\', \'Belgique\', \'uploads/1741870744_41bc254e7c8e18536b10.jpg\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `maison` (`admin_id`, `nom`, `description`, `village`, `pays`, `photo`) VALUES (\'1\', \'EpestiaL\', \'belle maison pour les cannrd\', \'Connardland\', \'Belgique\', \'uploads/1741870744_41bc254e7c8e18536b10.jpg\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `maison` (`admin_id`, `nom`, `description`, `village`, `pays`, `photo`) VALUES (:admin_id:, :nom:, :description:, :village:, :pays:, :photo:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\HouseController.php(30): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\HouseController->store()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HouseController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-03-13 12:59:04 --> [Caused by] mysqli_sql_exception: Table 'location.maison' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `maison` (`admin_id`, `nom`, `description`, `village`, `pays`, `photo`) VALUES (\'1\', \'EpestiaL\', \'belle maison pour les cannrd\', \'Connardland\', \'Belgique\', \'uploads/1741870744_41bc254e7c8e18536b10.jpg\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `maison` (`admin_id`, `nom`, `description`, `village`, `pays`, `photo`) VALUES (\'1\', \'EpestiaL\', \'belle maison pour les cannrd\', \'Connardland\', \'Belgique\', \'uploads/1741870744_41bc254e7c8e18536b10.jpg\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `maison` (`admin_id`, `nom`, `description`, `village`, `pays`, `photo`) VALUES (\'1\', \'EpestiaL\', \'belle maison pour les cannrd\', \'Connardland\', \'Belgique\', \'uploads/1741870744_41bc254e7c8e18536b10.jpg\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `maison` (`admin_id`, `nom`, `description`, `village`, `pays`, `photo`) VALUES (:admin_id:, :nom:, :description:, :village:, :pays:, :photo:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\HouseController.php(30): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\HouseController->store()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HouseController))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2025-03-13 13:01:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 13:02:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 13:02:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 13:04:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 13:06:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 13:06:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 13:11:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 13:11:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 13:11:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 13:11:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 13:11:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 13:11:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 13:12:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 13:14:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 13:14:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 13:14:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 13:14:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 13:15:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 13:34:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-03-13 13:34:16 --> Error: Class "App\Models\UserModel" not found
+in APPPATH\Controllers\ReservationController.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReservationController->create()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReservationController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2025-03-13 13:35:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-03-13 13:35:38 --> ErrorException: Undefined array key "nom"
+in APPPATH\Views\Reservations.php on line 19.
+ 1 APPPATH\Views\Reservations.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nom"', 'C:\\xampp\\htdocs\\Location\\app\\Views\\Reservations.php', 19)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\Location\\app\\Views\\Reservations.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Reservations', [], true)
+ 5 APPPATH\Controllers\ReservationController.php(21): view('Reservations', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReservationController->create()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReservationController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2025-03-13 13:40:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 13:41:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 13:41:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 13:41:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 13:42:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 13:42:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 13:42:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 13:42:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 13:42:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 13:42:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 13:42:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 13:42:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 13:43:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 13:43:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 13:43:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 13:43:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 13:43:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 13:43:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 13:43:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 13:44:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 14:05:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 14:05:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 14:05:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 14:05:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 14:05:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 14:06:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 14:08:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 14:08:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 14:08:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 14:09:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 14:09:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 14:09:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 14:09:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 14:09:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 14:09:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 14:20:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 17:05:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 17:05:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 17:06:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 17:06:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 17:06:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 17:06:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 17:06:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 17:09:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 17:09:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 17:10:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 17:10:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 17:10:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 17:10:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 17:10:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 17:10:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 17:11:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 17:11:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 17:11:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 17:11:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 17:11:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 17:11:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 17:11:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 17:11:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 17:11:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 17:11:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 17:11:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 17:11:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 17:12:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 17:13:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 17:18:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 17:18:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 17:18:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 17:18:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 17:18:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 17:18:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 17:18:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 17:18:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 17:18:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 17:18:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 17:18:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 17:18:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 17:19:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 17:19:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 17:19:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 17:19:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 17:21:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 17:27:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-03-13 17:27:52 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\Reservations.php on line 18.
+ 1 APPPATH\Views\Reservations.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\Location\\app\\Views\\Reservations.php', 18)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\Location\\app\\Views\\Reservations.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Reservations', [], true)
+ 5 APPPATH\Controllers\ReservationController.php(19): view('Reservations', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReservationController->create()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReservationController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2025-03-13 17:31:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-03-13 17:31:23 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\Reservations.php on line 18.
+ 1 APPPATH\Views\Reservations.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\Location\\app\\Views\\Reservations.php', 18)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\Location\\app\\Views\\Reservations.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Reservations', [], true)
+ 5 APPPATH\Controllers\ReservationController.php(19): view('Reservations', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReservationController->create()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReservationController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2025-03-13 17:31:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-03-13 17:31:23 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\Reservations.php on line 18.
+ 1 APPPATH\Views\Reservations.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\Location\\app\\Views\\Reservations.php', 18)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\Location\\app\\Views\\Reservations.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Reservations', [], true)
+ 5 APPPATH\Controllers\ReservationController.php(19): view('Reservations', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReservationController->create()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReservationController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2025-03-13 17:32:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 17:32:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-03-13 17:32:17 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\Reservations.php on line 18.
+ 1 APPPATH\Views\Reservations.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\Location\\app\\Views\\Reservations.php', 18)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\Location\\app\\Views\\Reservations.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Reservations', [], true)
+ 5 APPPATH\Controllers\ReservationController.php(19): view('Reservations', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReservationController->create()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReservationController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2025-03-13 17:34:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-03-13 17:34:22 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\Reservations.php on line 18.
+ 1 APPPATH\Views\Reservations.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\Location\\app\\Views\\Reservations.php', 18)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\Location\\app\\Views\\Reservations.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Reservations', [], true)
+ 5 APPPATH\Controllers\ReservationController.php(19): view('Reservations', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReservationController->create()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReservationController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2025-03-13 17:34:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-03-13 17:34:23 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\Reservations.php on line 18.
+ 1 APPPATH\Views\Reservations.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\Location\\app\\Views\\Reservations.php', 18)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\Location\\app\\Views\\Reservations.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Reservations', [], true)
+ 5 APPPATH\Controllers\ReservationController.php(19): view('Reservations', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReservationController->create()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReservationController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2025-03-13 17:34:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 17:36:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 17:38:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 17:38:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 17:38:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 17:38:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 17:38:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 17:38:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 17:38:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 17:46:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 17:47:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 17:47:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-03-13 17:48:21 --> Error: Class "App\Models\ReservationModel" not found
+in APPPATH\Controllers\ReservationController.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReservationController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReservationController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-03-13 17:48:55 --> ParseError: Unterminated comment starting line 15
+in APPPATH\Models\ReservationModels.php on line 15.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Location\\app\\Models\\ReservationModels.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\ReservationModels')
+ 3 APPPATH\Controllers\ReservationController.php(23): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\ReservationModels')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReservationController->save()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReservationController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2025-03-13 17:49:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-03-13 17:49:21 --> ParseError: Unterminated comment starting line 15
+in APPPATH\Models\ReservationModels.php on line 15.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Location\\app\\Models\\ReservationModels.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\ReservationModels')
+ 3 APPPATH\Controllers\ReservationController.php(23): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\ReservationModels')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReservationController->save()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReservationController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-03-13 17:49:50 --> Error: Class "App\Models\ReservationModels" not found
+in APPPATH\Controllers\ReservationController.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReservationController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReservationController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2025-03-13 17:50:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 17:58:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-03-13 18:00:22 --> CodeIgniter\Validation\Exceptions\ValidationException: "after_or_equal" is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 336.
+ 1 SYSTEMPATH\Validation\Validation.php(336): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('after_or_equal')
+ 2 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('fin', 'fin', '2025-03-18', [...], [...])
+ 3 SYSTEMPATH\Controller.php(152): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\ReservationController.php(27): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReservationController->save()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReservationController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-03-13 18:15:53 --> CodeIgniter\Validation\Exceptions\ValidationException: "callback_validate_dates" is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 336.
+ 1 SYSTEMPATH\Validation\Validation.php(336): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('callback_validate_dates')
+ 2 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('fin', 'fin', '2025-03-18', [...], [...])
+ 3 SYSTEMPATH\Controller.php(152): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\ReservationController.php(32): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReservationController->save()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReservationController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2025-03-13 18:15:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 18:19:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 18:19:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 18:19:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 18:19:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 18:19:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 18:19:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 18:19:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 18:19:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 18:19:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 18:19:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 18:22:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 18:23:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 18:23:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 18:25:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 18:27:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 18:27:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 18:27:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 18:28:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 18:28:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 18:28:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 18:30:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 18:35:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 18:35:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-03-13 18:35:19 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\Reservations.php on line 18.
+ 1 APPPATH\Views\Reservations.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\Location\\app\\Views\\Reservations.php', 18)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\Location\\app\\Views\\Reservations.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Reservations', [], true)
+ 5 APPPATH\Controllers\ReservationController.php(20): view('Reservations', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReservationController->create()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReservationController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2025-03-13 18:36:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-03-13 18:36:57 --> CodeIgniter\Validation\Exceptions\ValidationException: "after_or_equal" is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 336.
+ 1 SYSTEMPATH\Validation\Validation.php(336): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('after_or_equal')
+ 2 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('fin', 'fin', '2025-03-27', [...], [...])
+ 3 SYSTEMPATH\Controller.php(152): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\ReservationController.php(27): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReservationController->save()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReservationController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-03-13 18:37:36 --> CodeIgniter\Validation\Exceptions\ValidationException: "after_or_equal" is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 336.
+ 1 SYSTEMPATH\Validation\Validation.php(336): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('after_or_equal')
+ 2 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('fin', 'fin', '2025-03-27', [...], [...])
+ 3 SYSTEMPATH\Controller.php(152): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\ReservationController.php(27): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReservationController->save()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReservationController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-03-13 18:38:04 --> Error: Class "App\Models\ReservationModel" not found
+in APPPATH\Controllers\ReservationController.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReservationController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReservationController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-03-13 18:38:27 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "reservation_recap.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('reservation_recap.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('reservation_recap', [], true)
+ 3 APPPATH\Controllers\ReservationController.php(47): view('reservation_recap', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReservationController->save()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReservationController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2025-03-13 18:38:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 18:39:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 18:41:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-13 18:42:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

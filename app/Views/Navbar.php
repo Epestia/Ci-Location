@@ -30,14 +30,23 @@
                     <li class="nav-item">
                         <a class="nav-link" href="<?= base_url('information') ?>">Mes Informations</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="<?= base_url('reservations/create') ?>">Créer une Réservation</a> 
+                    </li>
                     <?php if (session()->get('role') === 'ADMIN'): ?>
-                        <li class="nav-item">
-                            <a class="nav-link" href="<?= base_url('allUsers') ?>">Tous les utilisateurs</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="<?= base_url('createHouse') ?>">Créer une maison</a>
-                        </li>
-                    <?php endif; ?>
+                    <li class="nav-item">
+                        <a class="nav-link" href="<?= base_url('allUsers') ?>">Tous les utilisateurs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="<?= base_url('createHouse') ?>">Créer une maison</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="<?= base_url('indisponibilite/create') ?>">Créer une Indisponibilité</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="<?= base_url('indisponibilites/all') ?>">Toutes les Indisponibilités</a> 
+                    </li>
+                <?php endif; ?>
 
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle d-flex align-items-center" href="#" id="userDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">

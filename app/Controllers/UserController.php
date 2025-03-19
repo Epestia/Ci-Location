@@ -28,6 +28,7 @@ class UserController extends BaseController
         }
     
         $data = [
+
             'username'     => $username,
             'email'        => $this->request->getPost('email'),
             'passwordHash' => $hashedPassword,
